@@ -9,8 +9,8 @@ In detail, the image is set up with:
 
 To build the image from the Dockerfile, run:
 ```bash
-mkdir cd-hit && cd cd-hit
-git pull https://github.com/seanfahey1/cdhit-docker.git
+git clone https://github.com/seanfahey1/cdhit-docker.git
+cd cdhit-docker
 docker build -t cd-hit-local .
 ```
 
