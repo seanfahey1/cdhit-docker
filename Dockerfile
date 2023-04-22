@@ -6,6 +6,10 @@ RUN apt-get update \
   && apt-get clean && apt-get purge \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN apt update \
+  && apt -y upgrade \
+  && apt install -y tree git python3 curl
+
 WORKDIR /usr/src
 
 RUN wget https://github.com/weizhongli/cdhit/releases/download/V4.8.1/cd-hit-v4.8.1-2019-0228.tar.gz \
