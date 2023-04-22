@@ -1,7 +1,7 @@
 # cdhit-docker
 Docker image for running cdhit in Ubuntu:kinetic
 
-The image contains a full install of [cd-hit](https://sites.google.com/view/cd-hit) ([github link](https://github.com/weizhongli/cdhit), including all necessary dependencies. Credit to https://github.com/chrishah/cdhit-docker for creating the initial image. 
+The image contains a full install of [cd-hit](https://sites.google.com/view/cd-hit) ([github link](https://github.com/weizhongli/cdhit)), including all necessary dependencies. Credit to https://github.com/chrishah/cdhit-docker for creating the initial image. 
 
 In detail, the image is set up with:
  - Ubuntu:kinetic
