@@ -1,4 +1,4 @@
-FROM ubuntu:kinetic
+FROM ubuntu:jammy
 
 RUN apt-get update \
   && apt-get -y upgrade \
